@@ -1,0 +1,26 @@
+{
+    "manifests": {
+        "corvet/light-field-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Corvet\\LightFieldBundle\\CorvetLightFieldBundle": [
+                        "all"
+                    ]
+                },
+                "importmap": {
+                    "flatpickr": {
+                        "version": "4.6.13"
+                    },
+                    "inputmask": {
+                        "version": "5.0.9"
+                    }
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": [],
+            "ref": "aa34b7f5501fe053026ac1915648f1d29bcfa056"
+        }
+    }
+}
